@@ -210,108 +210,7 @@
 
     </LinearLayout>
 
-    <!-- Editable Exercises Layout for Back (Initially Hidden) -->
-    <LinearLayout
-        android:id="@+id/backExercisesLayout"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:visibility="gone"
-        app:layout_constraintTop_toBottomOf="@id/chestExercisesLayout"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
 
-        <!-- Exercise 1: Deadlift -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Deadlift" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Sets: 5"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Reps: 5"
-            android:textSize="16sp" />
-
-        <!-- Exercise 2: Pull-ups -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Pull-ups" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Sets: 5"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Reps: 5"
-            android:textSize="16sp" />
-
-        <!-- Exercise 3: Bent-over Rows -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Bent-over Rows" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Sets: 5"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Reps: 5"
-            android:textSize="16sp" />
-
-        <!-- Exercise 4: Lat Pulldowns -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Lat Pulldowns" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Sets: 5"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Reps: 5"
-            android:textSize="16sp" />
-
-        <!-- Exercise 5: T-Bar Row -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="T-Bar Row" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Sets: 5"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Reps: 5"
-            android:textSize="16sp" />
-
-    </LinearLayout>
     <LinearLayout
         android:id="@+id/backExercisesLayout"
         android:layout_width="0dp"
@@ -412,9 +311,14 @@
             android:layout_height="wrap_content"
             android:text="Reps: 5"
             android:textSize="16sp" />
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/chess"
+            android:contentDescription="Description of the image" />
 
     </LinearLayout>
-    <!-- Editable Exercises Layout for Hands (Initially Hidden) -->
     <LinearLayout
         android:id="@+id/handsExercisesLayout"
         android:layout_width="0dp"
@@ -514,6 +418,12 @@
             android:layout_height="wrap_content"
             android:text="Reps: 5"
             android:textSize="16sp" />
+        <ImageView
+            android:id="@+id/hand"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hands"
+            android:contentDescription="Description of the image" />
 
     </LinearLayout>
 
@@ -617,6 +527,12 @@
             android:layout_height="wrap_content"
             android:text="Reps: 5"
             android:textSize="16sp" />
+        <ImageView
+            android:id="@+id/legs"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/legs"
+            android:contentDescription="Description of the image" />
 
     </LinearLayout>
 
