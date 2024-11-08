@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="activity_levels">
+        <item>No exercise</item>
+        <item>Exercise from 1-3 times a week</item>
+        <item>Exercise from 3-5 times a week</item>
+        <item>Exercise from 5-7 times a week</item>
+    </string-array>
+</resources>
